@@ -10,7 +10,7 @@
   <artifactId>plot</artifactId>
   <packaging>hpi</packaging>
   <name>Plot plugin</name>
-  <version>1.6-h-1</version>
+  <version>1.6-h-2-SNAPSHOT</version>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Plot+Plugin</url>
 
   <properties>
