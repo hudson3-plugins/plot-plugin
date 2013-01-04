@@ -6,18 +6,31 @@
     <version>3.0.0</version>
   </parent>
   
+  <groupId>org.hudsonci.plugins</groupId>
   <artifactId>plot</artifactId>
   <packaging>hpi</packaging>
   <name>Plot plugin</name>
-  <version>1.6-SNAPSHOT</version>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Plot+Plugin</url>
+  <version>1.6-h-1-SNAPSHOT</version>
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Plot+Plugin</url>
 
   <developers>
     <developer>
-      <id>nidaley</id>
-      <name>Nigel Daley</name>
+      <id>schristou88</id>
+      <name>Steven Christou</name>
+      <email>schristou88@gmail.com</email>
     </developer>
   </developers>
+
+  <contributors>
+    <contributor>
+      <name>Nigel Daley</name>
+      <roles>
+        <role>
+          Original Developer
+        </role>
+      </roles>
+    </contributor>
+  </contributors>
 
   <dependencies>
         <dependency>
