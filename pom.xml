@@ -13,11 +13,24 @@
   <version>1.6-h-1-SNAPSHOT</version>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Plot+Plugin</url>
 
+  <licenses>
+    <license>
+      <name>The MIT license</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
   <developers>
     <developer>
       <id>schristou88</id>
       <name>Steven Christou</name>
       <email>schristou88@gmail.com</email>
+      <roles>
+          <role>
+              Maintainer
+          </role>
+      </roles>
     </developer>
   </developers>
 
