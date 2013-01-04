@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>plugin</artifactId>
-    <version>1.399</version>
+    <groupId>org.eclipse.hudson.plugins</groupId>
+    <artifactId>hudson-plugin-parent</artifactId>
+    <version>3.0.0</version>
   </parent>
   
   <artifactId>plot</artifactId>
@@ -30,6 +30,11 @@
             <artifactId>opencsv</artifactId>
             <version>1.7</version>
         </dependency>
+        <dependency>
+            <groupId>org.hudsonci.plugins</groupId>
+            <artifactId>jfreechart-plugin</artifactId>
+            <version>1.4</version>
+        </dependency>
   </dependencies>
 
   <build>
@@ -51,24 +56,10 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/plot-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/plot-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/plot-plugin</url>
+    <connection>scm:git:git://github.com/hudson3-plugins/plot-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:hudson3-plugins/plot-plugin.git</developerConnection>
+    <url>https://github.com/hudson3-plugins/plot-plugin</url>
   </scm>
-
-    <repositories>
-        <repository>
-            <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/public/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/public/</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>  
   
 
