@@ -13,6 +13,10 @@
   <version>1.6-h-1-SNAPSHOT</version>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Plot+Plugin</url>
 
+  <properties>
+    <hudsonTags>report</hudsonTags>
+  </properties>
+
   <licenses>
     <license>
       <name>The MIT license</name>
